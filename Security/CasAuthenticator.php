@@ -40,7 +40,7 @@ class CasAuthenticator extends AbstractAuthenticator implements AuthenticationEn
         return true;
     }
 
-    public function start(Request $request, AuthenticationException $authException = null): Response
+    public function start(Request $request, ?AuthenticationException $authException = null): Response
     {
         // Si el llamado es ajax devuelve un 401
         if($request->isXmlHttpRequest()) {

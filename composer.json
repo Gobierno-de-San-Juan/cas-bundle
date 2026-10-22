@@ -1,15 +1,15 @@
 {
     "name": "jkober/cas-bundle",
     "type": "symfony-bundle",
-    "description": "Bundle de cas para symfony 5.4",
+    "description": "Bundle de cas para symfony 5.4 y 6.4",
     "homepage": "https://github.com/deimsantafe/stg-cas-bundle",
     "license": "MIT",
     "require": {
         "php": ">=8.1",
         "apereo/phpcas": "^1.6",
-	    "symfony/security-bundle": "~5.4",
-        "symfony/dependency-injection": "~5.4",
-        "symfony/routing": "~5.4"
+	    "symfony/security-bundle": "^5.4 || ^6.4",
+        "symfony/dependency-injection": "^5.4 || ^6.4",
+        "symfony/routing": "^5.4 || ^6.4"
     },
     "autoload": {
         "psr-4": { "Stg\\Bundle\\CasBundle\\": "" }
